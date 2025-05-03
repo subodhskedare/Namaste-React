@@ -1,3 +1,3 @@
-const header = React.createElement("h1",{},"Hi from React")
+const header = React.createElement("h1",{id: "heading"},"Hi from React")
 const root =  ReactDOM.createRoot(document.getElementById("root"))
 root.render(header)
